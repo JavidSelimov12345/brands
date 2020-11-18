@@ -24,7 +24,7 @@
 .c-layout.c-day .number,
 .page .form button,
 .page .form textarea{
-	font-family: 'Opensans';
+	/* font-family: 'Opensans'; */
 	letter-spacing: -0.01em;
 }
 

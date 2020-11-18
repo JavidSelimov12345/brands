@@ -43,6 +43,16 @@ http://themeforest.net/licenses
 
 /* 0. Base Style  */
 /* initialization */
+
+
+@font-face {
+	font-family: "montserrat";
+	src: url(/fonts/Montserrat-Regular.otf)
+		
+  }
+
+
+
 html {
     color: #fff;
     font-size: 1em;
@@ -95,7 +105,7 @@ body, html, h1, h2, h3, h4, h5, h6, a, ul, li{
     
 }
 body{
-    font-family: 'OpenSans';
+    font-family: 'montserrat';
     background: #fff;
     
     margin: 0;
@@ -447,7 +457,7 @@ strong,
 		float: left;
 	}
 	.header-top .logo img{
-		height: 56px;
+		height: 100px;
 		width: auto;
 		padding: 8px 16px;
 	}
@@ -475,7 +485,7 @@ strong,
 		text-transform: capitalize;
 		text-align: center;
 		font-size:18px;
-    	font-family: 'Asap';
+    	font-family: 'montserrat';
 		font-weight: normal;
 		padding: 14px 16px;
 		-webkit-transition: 0.3s;
@@ -523,7 +533,7 @@ strong,
 	height: 10px;
 }
 #fp-nav ul li a span{
-	background: #fff;
+	background: #FE5421;
 }
 #fp-nav li, .fp-slidesNav li {
     display: block;
@@ -547,7 +557,7 @@ strong,
 		transition: 0.3s;
 	}
 #fp-nav li .active span, .fp-slidesNav .active span{
-    background: #fff;
+    background: #FE5421;
 	position: absolute;
 }
 	#fp-nav li .active span:after, 
@@ -660,7 +670,7 @@ strong,
 		left: 56px;
 		top: 17px;
 		color: #fff;
-		font-family: "Asap";
+		font-family: "montserrat";
 		text-transform: uppercase;
 		text-align: left;
 		width: 100px;
@@ -686,9 +696,9 @@ strong,
 	bottom: 20px;
 	right: 56px;
 	margin-right: -8px;
-	color: #fff;
+	color: #FE5421;
 	font-size:18px;
-	font-family: 'Asap';
+	font-family: 'montserrat';
 	font-weight: normal;
 }
 .page-footer a:first-child{
@@ -771,7 +781,7 @@ strong,
 }
 	.p-footer .text{
 		font-size: 12px;
-		font-family: "Asap";
+		font-family: "montserrat";
 		text-transform: uppercase;
 	}
 .p-footer:hover .icon{
@@ -793,8 +803,8 @@ strong,
 	border-radius: 100%;
     margin-left: -24px;   
 	transition: 0.3s;
-	font-family: "Asap";
-	color: #fff;
+	font-family: "montserrat";
+	color: #FE5421;
 	font-size: 14px;
 }
 	.p-footer .arrow-d:hover{
@@ -813,7 +823,7 @@ strong,
 		right: 12px;
 		position: absolute;
 		content: "";
-		background: #fff;
+		background: #FE5421;
 		border-radius: 100%;
 		-webkit-transition: 0.3s;
 		transition: 0.3s;
@@ -968,8 +978,8 @@ strong,
     -webkit-transition: 0.6s;
     transition: 0.6s;
 	text-align: left;
-    font-family: 'Asap';
-	color: #fff;
+    font-family: 'montserrat';
+	color:#FE5421;
 }
 
 .page-cent .p-title{
@@ -983,7 +993,7 @@ strong,
     text-align: left;
     display: inline-block;
 	color: #fff;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	border-bottom: 8px solid #5677fc;
 }
 .page-cent .p-title h2{
@@ -995,7 +1005,7 @@ strong,
 	margin-bottom: 0.3em;
     display: block;
 	color: #fff;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 }
 
 /* Page general structure */
@@ -1006,12 +1016,12 @@ strong,
 	font-size: 0.8em;
 }
 .page-cent .text{	
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	color: #fff;
 	text-align: left;
 }
 .page p{    
-    font-family: 'Asap';
+    font-family: 'montserrat';
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 0.75rem;
@@ -1026,7 +1036,7 @@ strong,
     text-transform: uppercase;
 }
 .page p.light{
-    font-family: 'OpenSans-Light';
+    font-family: 'montserrat-Light';
 }
 .page h4{
 	text-transform: uppercase;
@@ -1040,7 +1050,7 @@ strong,
 .page h2,
 .page h3,
 .page h4{
-    font-family: 'Asap';
+    font-family: 'montserrat';
     color: #ffffff;
 }
 
@@ -1107,6 +1117,7 @@ strong,
 	position: relative;
 	max-width: 1200px;
 	width: 100%;
+	margin-top: 300px;
 }
 .page-home .logo-container{
 	position: absolute;
@@ -1200,7 +1211,7 @@ strong,
 .page .content .clock .header{
 	position: absolute;
 	top: -72px;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: normal;
 	font-size: 30px;
 	text-align: center;
@@ -1209,7 +1220,7 @@ strong,
 .page .clock .text{
     position: relative; 
     width: 100%;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: normal;
     letter-spacing: 0;
     margin-top: 0.5em;
@@ -1237,7 +1248,7 @@ strong,
 	margin-top: -0.5em;
 	letter-spacing: -0.03em;
 	line-height: 1em;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: bold;
 	width: 100%;
     color: #fff;
@@ -1285,7 +1296,7 @@ strong,
 	letter-spacing: -0.03em;
 	margin-top: -0.5em;
 	line-height: 1em;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: normal;
 	width: 100%;
     color: #fff;
@@ -1323,7 +1334,7 @@ strong,
     color: #fff;
     padding: 0em 1em;
 	padding-bottom: 0.3em;
-    font-family: 'Asap';
+    font-family: 'montserrat';
     font-size: 20px;
     box-shadow: none;
     display: inline-block;
@@ -1353,7 +1364,7 @@ strong,
 }
 .page .form label{
 	display: inline-block;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: bold;
     font-size: 20px;
     color: #fff;
@@ -1381,7 +1392,7 @@ strong,
 .page .form button{ 
     background: #5677fc;
     color: #fff;
-    font-family: 'Asap';
+    font-family: 'montserrat';
 	font-weight: bold;
     font-size: 20px;
     text-transform: uppercase;
@@ -1425,7 +1436,7 @@ strong,
     padding: 0.5em 1em;
     min-width: 200px;    
     font-size: 20px;
-	font-family: "Asap";
+	font-family: "montserrat";
     display: block;
     width: 100%;
     box-shadow: none;
@@ -1592,6 +1603,6 @@ a{
 }
 
 .maincolor{
-	color:#FE5421;
+	color:#FE5421 !important;
 }
 
