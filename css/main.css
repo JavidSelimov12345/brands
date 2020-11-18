@@ -571,7 +571,7 @@ strong,
 .quick-link{
 	position: fixed;
 	top: 50%;
-	left: 0;
+	right: 0;
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
 	z-index: 100;
@@ -667,9 +667,9 @@ strong,
 	.quick-link .title{
 		position: absolute;
 		font-size: 12px;
-		left: 56px;
+		left: -100px;
 		top: 17px;
-		color: #fff;
+		color:#FE5421;
 		font-family: "montserrat";
 		text-transform: uppercase;
 		text-align: left;
@@ -1605,4 +1605,30 @@ a{
 .maincolor{
 	color:#FE5421 !important;
 }
+
+
+
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+	position: fixed;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 20px;
+  }
+  .mrr{
+
+	
+  }
+  
 
